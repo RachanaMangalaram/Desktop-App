@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Google Forms Desktop App/.vs
+/Google Forms Desktop App/bin/Debug/net8.0-windows
+/Google Forms Desktop App/obj
