@@ -50,7 +50,7 @@ Partial Class CreateSubmissionForm
         ' 
         labelname.AutoSize = True
         labelname.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        labelname.Location = New Point(101, 119)
+        labelname.Location = New Point(221, 120)
         labelname.Name = "labelname"
         labelname.Size = New Size(56, 22)
         labelname.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class CreateSubmissionForm
         ' 
         lblemail.AutoSize = True
         lblemail.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblemail.Location = New Point(101, 195)
+        lblemail.Location = New Point(220, 204)
         lblemail.Name = "lblemail"
         lblemail.Size = New Size(57, 22)
         lblemail.TabIndex = 2
@@ -70,7 +70,7 @@ Partial Class CreateSubmissionForm
         ' 
         lblphone.AutoSize = True
         lblphone.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblphone.Location = New Point(101, 277)
+        lblphone.Location = New Point(210, 283)
         lblphone.Name = "lblphone"
         lblphone.Size = New Size(100, 22)
         lblphone.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class CreateSubmissionForm
         ' 
         lblgithublink.AutoSize = True
         lblgithublink.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblgithublink.Location = New Point(101, 356)
+        lblgithublink.Location = New Point(163, 362)
         lblgithublink.Name = "lblgithublink"
         lblgithublink.Size = New Size(193, 22)
         lblgithublink.TabIndex = 4
@@ -88,28 +88,28 @@ Partial Class CreateSubmissionForm
         ' 
         ' txtName
         ' 
-        txtName.Location = New Point(379, 114)
+        txtName.Location = New Point(468, 120)
         txtName.Name = "txtName"
         txtName.Size = New Size(321, 27)
         txtName.TabIndex = 5
         ' 
         ' txtemail
         ' 
-        txtemail.Location = New Point(379, 193)
+        txtemail.Location = New Point(468, 199)
         txtemail.Name = "txtemail"
         txtemail.Size = New Size(321, 27)
         txtemail.TabIndex = 6
         ' 
         ' txtphone
         ' 
-        txtphone.Location = New Point(379, 272)
+        txtphone.Location = New Point(468, 278)
         txtphone.Name = "txtphone"
         txtphone.Size = New Size(321, 27)
         txtphone.TabIndex = 7
         ' 
         ' txtgithublink
         ' 
-        txtgithublink.Location = New Point(379, 351)
+        txtgithublink.Location = New Point(468, 357)
         txtgithublink.Name = "txtgithublink"
         txtgithublink.Size = New Size(321, 27)
         txtgithublink.TabIndex = 8
@@ -118,11 +118,11 @@ Partial Class CreateSubmissionForm
         ' 
         btnToogleStopWatch.BackColor = Color.Khaki
         btnToogleStopWatch.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnToogleStopWatch.Location = New Point(101, 426)
+        btnToogleStopWatch.Location = New Point(101, 432)
         btnToogleStopWatch.Name = "btnToogleStopWatch"
-        btnToogleStopWatch.Size = New Size(255, 37)
+        btnToogleStopWatch.Size = New Size(344, 37)
         btnToogleStopWatch.TabIndex = 9
-        btnToogleStopWatch.Text = "TOGGLE STOPWATCH"
+        btnToogleStopWatch.Text = "STOPWATCH TIME (CTRL + T)"
         btnToogleStopWatch.UseVisualStyleBackColor = False
         ' 
         ' btnSubmit
@@ -131,14 +131,14 @@ Partial Class CreateSubmissionForm
         btnSubmit.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnSubmit.Location = New Point(101, 507)
         btnSubmit.Name = "btnSubmit"
-        btnSubmit.Size = New Size(599, 37)
+        btnSubmit.Size = New Size(688, 37)
         btnSubmit.TabIndex = 10
-        btnSubmit.Text = "SUBMIT"
+        btnSubmit.Text = "SUBMIT (CTRL + S)"
         btnSubmit.UseVisualStyleBackColor = False
         ' 
         ' txttogglestopwatch
         ' 
-        txttogglestopwatch.Location = New Point(379, 426)
+        txttogglestopwatch.Location = New Point(468, 432)
         txttogglestopwatch.Name = "txttogglestopwatch"
         txttogglestopwatch.ReadOnly = True
         txttogglestopwatch.Size = New Size(321, 27)

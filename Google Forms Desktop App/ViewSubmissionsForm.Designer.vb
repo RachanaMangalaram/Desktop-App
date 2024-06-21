@@ -32,7 +32,7 @@ Partial Class ViewSubmissionsForm
         txtGithubLink = New TextBox()
         githublink = New Label()
         stopwatch = New Label()
-        TextBox1 = New TextBox()
+        txtStopwatch = New TextBox()
         btnPrevious = New Button()
         btnNext = New Button()
         SuspendLayout()
@@ -69,19 +69,23 @@ Partial Class ViewSubmissionsForm
         ' 
         ' txtName
         ' 
+        txtName.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtName.ForeColor = Color.Black
         txtName.Location = New Point(306, 87)
         txtName.Name = "txtName"
         txtName.ReadOnly = True
-        txtName.Size = New Size(345, 27)
+        txtName.Size = New Size(345, 30)
         txtName.TabIndex = 3
         txtName.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtEmail
         ' 
+        txtEmail.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtEmail.ForeColor = Color.Black
         txtEmail.Location = New Point(306, 159)
         txtEmail.Name = "txtEmail"
         txtEmail.ReadOnly = True
-        txtEmail.Size = New Size(345, 27)
+        txtEmail.Size = New Size(345, 30)
         txtEmail.TabIndex = 4
         txtEmail.TextAlign = HorizontalAlignment.Center
         ' 
@@ -97,19 +101,23 @@ Partial Class ViewSubmissionsForm
         ' 
         ' txtPhone
         ' 
+        txtPhone.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtPhone.ForeColor = Color.Black
         txtPhone.Location = New Point(306, 237)
         txtPhone.Name = "txtPhone"
         txtPhone.ReadOnly = True
-        txtPhone.Size = New Size(345, 27)
+        txtPhone.Size = New Size(345, 30)
         txtPhone.TabIndex = 6
         txtPhone.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtGithubLink
         ' 
+        txtGithubLink.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtGithubLink.ForeColor = Color.Black
         txtGithubLink.Location = New Point(306, 313)
         txtGithubLink.Name = "txtGithubLink"
         txtGithubLink.ReadOnly = True
-        txtGithubLink.Size = New Size(345, 27)
+        txtGithubLink.Size = New Size(345, 30)
         txtGithubLink.TabIndex = 7
         txtGithubLink.TextAlign = HorizontalAlignment.Center
         ' 
@@ -133,35 +141,37 @@ Partial Class ViewSubmissionsForm
         stopwatch.TabIndex = 9
         stopwatch.Text = "Stopwatch time"
         ' 
-        ' TextBox1
+        ' txtStopwatch
         ' 
-        TextBox1.Location = New Point(306, 377)
-        TextBox1.Name = "TextBox1"
-        TextBox1.ReadOnly = True
-        TextBox1.Size = New Size(345, 27)
-        TextBox1.TabIndex = 10
-        TextBox1.TextAlign = HorizontalAlignment.Center
+        txtStopwatch.Font = New Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtStopwatch.ForeColor = Color.Black
+        txtStopwatch.Location = New Point(306, 377)
+        txtStopwatch.Name = "txtStopwatch"
+        txtStopwatch.ReadOnly = True
+        txtStopwatch.Size = New Size(345, 30)
+        txtStopwatch.TabIndex = 10
+        txtStopwatch.TextAlign = HorizontalAlignment.Center
         ' 
         ' btnPrevious
         ' 
         btnPrevious.BackColor = Color.Khaki
         btnPrevious.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnPrevious.Location = New Point(142, 487)
+        btnPrevious.Location = New Point(71, 487)
         btnPrevious.Name = "btnPrevious"
-        btnPrevious.Size = New Size(150, 42)
+        btnPrevious.Size = New Size(263, 42)
         btnPrevious.TabIndex = 11
-        btnPrevious.Text = "PREVIOUS"
+        btnPrevious.Text = "PREVIOUS (CTRL + P)"
         btnPrevious.UseVisualStyleBackColor = False
         ' 
         ' btnNext
         ' 
         btnNext.BackColor = Color.PaleTurquoise
         btnNext.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnNext.Location = New Point(371, 487)
+        btnNext.Location = New Point(373, 487)
         btnNext.Name = "btnNext"
-        btnNext.Size = New Size(170, 42)
+        btnNext.Size = New Size(278, 42)
         btnNext.TabIndex = 12
-        btnNext.Text = "NEXT"
+        btnNext.Text = "NEXT (CTRL + N)"
         btnNext.UseVisualStyleBackColor = False
         ' 
         ' ViewSubmissionsForm
@@ -171,7 +181,7 @@ Partial Class ViewSubmissionsForm
         ClientSize = New Size(800, 624)
         Controls.Add(btnNext)
         Controls.Add(btnPrevious)
-        Controls.Add(TextBox1)
+        Controls.Add(txtStopwatch)
         Controls.Add(stopwatch)
         Controls.Add(githublink)
         Controls.Add(txtGithubLink)
@@ -200,7 +210,7 @@ Partial Class ViewSubmissionsForm
     Friend WithEvents txtGithubLink As System.Windows.Forms.TextBox
     Friend WithEvents githublink As System.Windows.Forms.Label
     Friend WithEvents stopwatch As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtStopwatch As System.Windows.Forms.TextBox
     Friend WithEvents btnPrevious As System.Windows.Forms.Button
     Friend WithEvents btnNext As System.Windows.Forms.Button
 End Class
